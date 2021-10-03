@@ -8,17 +8,21 @@ A React app using mealDb API and material UI
 
 This project is deployed at [https://hungry-meal-db.netlify.app/](https://hungry-meal-db.netlify.app/).
 
-Git Clone From-
+### How to use -
 
-```
-git clone https://github.com/panzerdp/clipboardy.git
-```
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 
-Then Run-
+    - Git Clone From-
 
-```
-npm install
-```
+    ```
+    git clone https://github.com/panzerdp/clipboardy.git
+    ```
+
+    - Then Run-
+
+    ```
+    npm install
+    ```
 
 ### Learn About This Project
 
