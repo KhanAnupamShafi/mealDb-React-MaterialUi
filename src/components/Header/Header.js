@@ -45,11 +45,7 @@ const Header = () => {
         position="static"
       >
         <Toolbar>
-          <IconButton
-            color="inherit"
-            onClick={toggleDrawer}
-            style={{ marginRight: "auto" }}
-          >
+          <IconButton color="inherit" onClick={toggleDrawer} sx={{ mr: 2 }}>
             <Menu></Menu>
           </IconButton>
 
@@ -58,7 +54,15 @@ const Header = () => {
             <img src={logo} alt="" fontSize="large" className="logo" />
           </Box>
 
-          <Stack direction="row" spacing={2}>
+          <Stack
+            direction="row"
+            spacing={{ md: 2 }}
+            rowGap={{ md: 0, sm: 5, xs: 5 }}
+            margin={{ md: 0, sm: 3, xs: 3 }}
+            sx={{
+              flexDirection: { xs: "column", sm: "column", md: "row" },
+            }}
+          >
             <NavLink
               to="/home"
               className="tags"
@@ -89,7 +93,12 @@ const Header = () => {
             </NavLink>
           </Stack>
 
-          <Typography style={{ marginLeft: "auto" }}>
+          <Box
+            sx={{
+              marginLeft: "auto",
+              display: { xs: "none", sm: "none", md: "block" },
+            }}
+          >
             <Button
               sx={{
                 border: "1px solid #fff",
@@ -116,10 +125,10 @@ const Header = () => {
               variant="outlined"
               style={{ margin: 4 }}
             >
-              <PersonAddOutlined style={{ paddingRight: 5 }} />
+              <PersonAddOutlined sx={{ pr: 1 }} />
               SignUp
             </Button>
-          </Typography>
+          </Box>
         </Toolbar>
       </AppBar>
       <Drawer open={drawer} onClose={toggleDrawer} style={{ width: 800 }}>

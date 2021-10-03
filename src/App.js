@@ -55,7 +55,7 @@ function App() {
               <Services />
             </Route>
 
-            <Route path="/mealInfo/:idMeal">
+            <Route exact path="/mealInfo/:idMeal">
               <MealInfo />
             </Route>
             <Route path="*">
