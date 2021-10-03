@@ -26,11 +26,9 @@ This project is deployed at [https://hungry-meal-db.netlify.app/](https://hungry
 
 ### Learn About This Project
 
-- Hungry.db
-
-  1. Api data fetched from [MealDB](https://www.themealdb.com/api.php/)
-  2. Search data from meal db
-  3. Routing enabled for each meal details
+1. Api data fetched from [MealDB](https://www.themealdb.com/api.php/)
+2. Search data from meal db
+3. Routing enabled for each meal details
 
 ## 👩‍💻 Languages Used:
 
