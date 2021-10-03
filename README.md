@@ -10,9 +10,7 @@ This project is deployed at [https://hungry-meal-db.netlify.app/](https://hungry
 
 ### How to use -
 
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-
-- Git Clone From-
+- <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" /> Clone From-
 
   ```
   git clone https://github.com/panzerdp/clipboardy.git
