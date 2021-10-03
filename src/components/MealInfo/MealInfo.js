@@ -86,13 +86,19 @@ const MealInfo = () => {
     >
       <Box
         sx={{
+          margin: "auto",
           display: "flex",
+          flexDirection: { xs: "column", sm: "column", md: "row" },
         }}
       >
         <Avatar
           alt="Remy Sharp"
           src={strMealThumb}
-          sx={{ width: 320, height: 300, margin: "20px" }}
+          sx={{
+            width: { xs: 180, sm: 250, md: 320 },
+            height: { xs: 200, sm: 250, md: 300 },
+            margin: "20px",
+          }}
         />
 
         <CardContent>

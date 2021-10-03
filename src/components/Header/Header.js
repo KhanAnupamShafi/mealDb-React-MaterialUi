@@ -60,6 +60,7 @@ const Header = () => {
             rowGap={{ md: 0, sm: 5, xs: 5 }}
             margin={{ md: 0, sm: 3, xs: 3 }}
             sx={{
+              display: { xs: "none", sm: "block", md: "block" },
               flexDirection: { xs: "column", sm: "column", md: "row" },
             }}
           >
