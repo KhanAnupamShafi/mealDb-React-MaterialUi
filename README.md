@@ -1,10 +1,10 @@
 # Hungry/mealDB
 
-### (A MealDB Hiring Marketplace)
+### (React App React Router Material UI)
 
 ## Live Link (Netlify)
 
-This project is deployed at [this Netlify Link](https://employeeto.netlify.app/).
+This project is deployed at [https://hungry-meal-db.netlify.app/](https://hungry-meal-db.netlify.app/).
 
 Git Clone From-
 
@@ -41,4 +41,4 @@ npm install
 
 ## ☁ Cloud
 
-<img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" /> | `https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white`
+<img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" />
