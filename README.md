@@ -1,10 +1,10 @@
 # Hungry / mealDB
 
-A React app using mealDb API
+A React app using mealDb API and material UI
 
 ### (React, React Router, Material UI)
 
-## Live Link (Netlify)
+## Live Link (<img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" />)
 
 This project is deployed at [https://hungry-meal-db.netlify.app/](https://hungry-meal-db.netlify.app/).
 
